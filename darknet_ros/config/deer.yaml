@@ -1,0 +1,11 @@
+yolo_model:
+
+  config_file:
+    name: deer.cfg
+  weight_file:
+    name: deer.weights
+  threshold:
+    value: 0.6
+  detection_classes:
+    names:
+      - deer
