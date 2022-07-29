@@ -1,0 +1,16 @@
+yolo_model:
+
+  config_file:
+    name: deer_logos.cfg
+  weight_file:
+    name: deer_logos.weights
+  threshold:
+    value: 0.6
+  detection_classes:
+    names:
+      - deer
+      - starbucks
+      - ou_logo
+      - tim_hortons
+      - kroger
+      - traffic_cone
