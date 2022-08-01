@@ -6,7 +6,6 @@
   <arg name="network_param_file"         default="$(find darknet_ros)/config/deer_logos.yaml"/>
   <arg name="image" default="/usb_cam/image_raw" />
 
-
   <!-- Include main launch file -->
   <include file="$(find darknet_ros)/launch/darknet_ros.launch">
     <arg name="network_param_file"    value="$(arg network_param_file)"/>
